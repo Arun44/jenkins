@@ -2,11 +2,11 @@
 
 pipeline {
     agent any
-     stages {
-        stage('one') {
-             steps { 
+    stages {
+       stage('one') {
+            steps { 
                  hello 'word'
-              }
+            }
         }
     }
 }
