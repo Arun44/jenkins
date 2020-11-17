@@ -1,9 +1,11 @@
+@Library('jenkins-sharedlib') _
+
 pipeline {
     agent any
      stages {
         stage('one') {
              steps { 
-                 echo 'hello-world'
+                 Hello 'hello-world'
               }
         }
     }
